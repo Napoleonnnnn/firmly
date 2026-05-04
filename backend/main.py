@@ -1,6 +1,7 @@
 from fastapi import FastAPI
 from app.core.config import settings
 from app.api import health
+from app.api import identify
 
 
 app = FastAPI(
@@ -10,4 +11,5 @@ app = FastAPI(
 )
 
 app.include_router(health.router)
+app.include_router(identify.router)
 
