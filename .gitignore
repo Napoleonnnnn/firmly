@@ -1,0 +1,9 @@
+# python
+
+backend/.venv/
+__pycache__/
+*.pyc
+*.pyo
+backend/.env
+
+.vscode/
