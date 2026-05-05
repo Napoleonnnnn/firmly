@@ -7,3 +7,6 @@ __pycache__/
 backend/.env
 
 .vscode/
+
+data/datasheets/
+data/chromadb/
